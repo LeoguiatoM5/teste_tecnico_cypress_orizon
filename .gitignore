@@ -1,8 +1,6 @@
 
 node_modules/
 .env
-README_QUESTAO_3.md
-respostas_qa.md
 cypress/downloads/
 cypress/screenshots/
 cypress/videos/*
