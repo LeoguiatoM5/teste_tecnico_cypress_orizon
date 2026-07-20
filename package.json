@@ -1,0 +1,15 @@
+{
+  "name": "teste-login-acme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste automatizado de login e redirecionamento para o Dashboard com Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec cypress/e2e/login-dashboard.cy.js",
+    "cy:evidence": "cypress run --spec cypress/e2e/login-dashboard.cy.js --env EVIDENCE_MODE=true"
+  },
+  "devDependencies": {
+    "cypress": "15.3.0",
+    "dotenv": "17.2.3"
+  }
+}
